@@ -8,7 +8,7 @@
         "description": "...", //The post content
         "groupId": "2089256:Group:28181", //The group this post belongs to, each group is a Kublai project
         "contributorName": "2prezf5es7ty3", //The post author (each person is identificed by an unique Id in ning
-        "comments": [ //The comments to this post (an array of comment objects)
+        "comments": [ //The comments to this post i.e. an array of comment objects (this may not be present if empty)
             {
                 "createdDate": "2010-12-16T12:14:13.012Z", //The date/time when the comment was created
                 "id": "2089256:Comment:93944", //The comment Id
