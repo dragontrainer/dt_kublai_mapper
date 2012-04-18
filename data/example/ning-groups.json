@@ -1,0 +1,60 @@
+[
+	//The main json object is an array of group objects (a grop is a kublai project)
+    {
+        "id": "2089256:Group:94806", //The group identifier inside Ning
+        "groupPrivacy": "public", //Privacy of the group (is this public?)
+        "updatedDate": "2010-12-21T19:31:07.164Z", //Date/time when the group was last updated
+        "title": "Altrementi", //Group title
+        "memberCount": "8", //Number of persons in this group
+        "url": "altrementi", //This should be the slug for the group 
+        "createdDate": "2010-12-19T23:46:55.381Z", //Date/time the group was created
+        "allowMemberMessaging": "Y",  
+        "approved": "Y",
+        "allowInvitationRequests": "Y",
+        "description": "...", //The group description
+        "iconUrl": "http://api.ning.com:80/files/Vif55cvwMQnZ7EiEFGeJkjCZVqOwCkJKR2p0P2rXb69OS4cSzBrHBlOX4PuUHCXwlsEgOzV3fVCnsbRzQbOv-9D*BMtWg5NQ/altre2copia.jpg",
+        "allowInvitations": "Y",
+        "contributorName": "35iv1tsun92hf", //The group adminstrator (i.e. the person that has started the group)
+		"comments": [ //This is an array of comments on the group page i.e.comments on the project itself (this may not be present if empty)
+            {
+                "createdDate": "2010-12-21T09:40:41.314Z", //The date/time when the comment was created
+                "id": "2089256:Comment:95208", //The comment Id
+                "description": "...", //The comment content
+                "contributorName": "082kwlby6ag7j" //The comment author (each person is identificed by an unique Id in ning)
+            },
+            {
+                "createdDate": "2010-12-21T09:29:26.477Z",
+                "id": "2089256:Comment:95207",
+                "description": "...",
+                "contributorName": "35iv1tsun92hf"
+            }
+        ],
+        "members": [ //This is an array of contributor objects each containing a reference to the user Id
+            {
+                "contributorName": "35iv1tsun92hf"
+            },
+            {
+                "contributorName": "3ad5tzkmmpw4d"
+            },
+            {
+                "contributorName": "12gujudhf95af"
+            },
+            {
+                "contributorName": "082kwlby6ag7j"
+            },
+            {
+                "contributorName": "5sn9vtte6got"
+            },
+            {
+                "contributorName": "3o93c4erezjpy"
+            },
+            {
+                "contributorName": "18sob3b1v4nux"
+            },
+            {
+                "contributorName": "2yge2gzg2xm67"
+            }
+        ]
+        
+    },
+]

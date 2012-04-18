@@ -1,0 +1,17 @@
+[
+	//The main json object is an array of member objects (i.e. users)
+    {
+        "createdDate": "2010-12-17T09:25:02.099Z", //Date/time when the user was created
+        "contributorName": "36ylff9igrg5y", //Id of the user
+        "state": "active", //User activation status
+        "comments": [ //An array of comments on the user page (this may not be present if empty)
+            {
+                "createdDate": "2010-12-21T13:08:57.730Z",  //The date/time when the comment was created
+                "id": "2089256:Comment:95110", //The comment Id
+                "description": "...", //The comment content
+                "contributorName": "18sob3b1v4nux" //The comment author (each person is identificed by an unique Id in ning)
+            }
+        ],
+    },
+
+]

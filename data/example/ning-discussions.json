@@ -1,0 +1,33 @@
+[
+	// The main json object is an array of topic objects, each one is like:
+    {
+        "updatedDate": "2010-12-16T12:14:12.959Z", //The date/time when the post was last updated
+        "title": "INIZIATIVE CREATIVE a REGGIO EMILIA E BOLOGNA",  //The title of the post
+        "createdDate": "2010-12-16T09:14:25.619Z", //The date/time when the post was created
+        "id": "2089256:Topic:93828", //The post identifier (it's unique inside ning)
+        "description": "...", //The post content
+        "groupId": "2089256:Group:28181", //The group this post belongs to, each group is a Kublai project
+        "contributorName": "2prezf5es7ty3", //The post author (each person is identificed by an unique Id in ning
+        "comments": [ //The comments to this post (an array of comment objects)
+            {
+                "createdDate": "2010-12-16T12:14:13.012Z", //The date/time when the comment was created
+                "id": "2089256:Comment:93944", //The comment Id
+                "description": "...", //The comment content
+                "contributorName": "3sg2860ln48bd" //The comment author (each person is identificed by an unique Id in ning)
+            },
+            {
+                "createdDate": "2010-12-16T09:25:38.544Z",
+                "id": "2089256:Comment:94106",
+                "description": "...",
+                "contributorName": "2prezf5es7ty3"
+            },
+            {
+                "createdDate": "2010-12-16T09:22:25.157Z",
+                "id": "2089256:Comment:93831",
+                "description": "...",
+                "contributorName": "3sg2860ln48bd"
+            }
+        ]
+    },
+]
+
